@@ -1,0 +1,12 @@
+{
+  "agents" : [
+    {
+      "count":  50,
+      "start-index":  1,
+      "agent-prefix":  "FIT_BUT",
+      "entity-prefix":  "connectionFIT_BUT",
+      "team":  "FIT_BUT",
+      "class": "FBAgent"
+    }
+  ]
+}

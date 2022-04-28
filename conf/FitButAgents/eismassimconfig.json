@@ -1,0 +1,29 @@
+{
+  "scenario": "assemble2020",
+  "host": "agentcontest1.in.tu-clausthal.de",
+  "port": 12300,
+  "scheduling": false,
+  "only-once": true,
+  "timeout": 3000,
+  "times": false,
+  "notifications": false,
+  "queued": false,
+
+  "entities" : {},
+
+  "multi-entities": [
+    {
+      "name-prefix": "connectionFIT_BUT",
+      "username-prefix": "agentFIT_BUT",
+      "password": "FsGNRvCk",
+      "print-iilang": false,
+      "print-json": false,
+      "start-index": 1,
+      "count": 50
+    }
+  ],
+
+  "status-entity": {
+    "name": "statusConnection"
+  }
+}
