@@ -1,11 +1,19 @@
 {
   "agents" : [
     {
-      "count":  50,
+      "count":  15,
       "start-index":  1,
-      "agent-prefix":  "FIT_BUT",
-      "entity-prefix":  "connectionFIT_BUT",
-      "team":  "FIT_BUT",
+      "agent-prefix":  "A",
+      "entity-prefix":  "connectionA",
+      "team":  "A",
+      "class": "FBAgent"
+    },
+    {
+      "count":  15,
+      "start-index":  1,
+      "agent-prefix":  "B",
+      "entity-prefix":  "connectionB",
+      "team":  "B",
       "class": "FBAgent"
     }
   ]
